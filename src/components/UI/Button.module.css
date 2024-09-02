@@ -1,0 +1,19 @@
+:root {
+  --hover_bg: beige;
+}
+.button {
+  margin-left: 20px;
+  height: 50px;
+  cursor: pointer;
+  background-color: var(--hover_bg);
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: rgb(240, 240, 155);
+}
+.button_disabled:hover {
+  background-color: var(--hover_bg);
+}
